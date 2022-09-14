@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    min-height: 100vh;
+    font-size: 1em;
+}
+
+/* cabeçalho */
+header{
+    background-color: black;
+    color: white;
+    padding: 55px;
+    text-align: center;
+}
+
+header h1{    
+    font-family: 'Passion One', cursive;
+    font-size: 10vw;
+    font-variant: small-caps;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+
+
+/* conteúdo */
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;       
+    font-family: 'Sriracha', cursive;
+    font-size: 3.5vw;
+}
+
+section p {
+    padding-bottom: 2em;
+}
+
+.estrofe1, .estrofe3{
+    background-color: white;
+}
+
+.texto1, .texto3, .texto5{
+    display: inline-block;
+    padding-left: 30px;
+}
+
+.estrofe2, .estrofe4{
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed; 
+    padding-left: 30px;
+    box-shadow: inset 6px 6px 13px 0 rgba(0, 0, 0, 0.493);
+}
+
+#img01{    
+    background-image: url('imagens/background001.jpg');
+}
+
+#img02{    
+    background-image: url('imagens/background002.jpg');   
+}
+
+.texto2, .texto4{
+    background-color: rgba(0, 0, 0, 0.507);
+    color: white;
+    display: inline-block;
+    padding: 5px;
+    text-shadow: 1px 1px 0 black;
+}
+
+
+/* rodapé */
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
